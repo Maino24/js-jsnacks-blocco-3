@@ -7,4 +7,8 @@ const array = []
 for(i = 0; i < 5; i++){
 
     let inputNumero = parseInt(prompt(`inserisci un numero`))
+    array.push(inputNumero)
+
+
+
 }

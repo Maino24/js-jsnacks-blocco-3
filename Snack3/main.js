@@ -17,6 +17,6 @@ while(i < n){
     }
 
     console.log(array)
-    document.getElementById(`output`).innerHTML= `${array}`
+    //document.getElementById(`output`).innerHTML= `${array}`
     i++
 }

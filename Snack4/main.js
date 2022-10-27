@@ -4,3 +4,4 @@ Interrompi il ciclo appena il nome è stato trovato.
 
 
 const nomiArray = [ `gabriele`, `giacomo`, `pippo`];
+let nomeInput = parseInt(prompt(`inserisci il nome`));

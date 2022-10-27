@@ -9,7 +9,7 @@ let n = parseInt(prompt(`inserisci un numero`));
 let i = 0 
 
 while(i < n){
-    let array[]
+    let array = []
 
     while( array.lenght < 10 ){
         let randomNumber = Math.floor(Math.random() * 100);

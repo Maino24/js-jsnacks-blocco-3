@@ -11,7 +11,7 @@ let i = 0
 while(i < n){
     let array = []
 
-    while( array.lenght < 10 ){
+    while( array.length < 10 ){
         let randomNumber = Math.floor(Math.random() * 100);
         array.push(randomNumber);
     }

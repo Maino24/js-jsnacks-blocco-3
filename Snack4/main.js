@@ -3,5 +3,21 @@ Interrompi il ciclo appena il nome è stato trovato.
 */
 
 
-const nomiArray = [ `gabriele`, `giacomo`, `pippo`];
+let nomiArray = [ `gabriele`, `giacomo`, `pippo`];
 let nomeInput = parseInt(prompt(`inserisci il nome`));
+
+let i = 0
+let variabileS = false;
+
+while(i < nomiArray[i]){
+
+    if(nomeInput === nomiArray.length){
+        console.log(`sei invitato`)
+        break;
+    }
+    i++
+    if(nomeInput !== nomiArray[i]){
+        console.log(`non sei presente`)
+    }
+}
+

@@ -6,15 +6,17 @@ Ogni volta che ne crei uno, stampalo.*/
 
 
 let n = parseInt(prompt(`inserisci un numero`));
+let i = 0 
 
+while(i < n){
+    let array[]
 
-for(i = 0; i < n; i++){
+    while( array.lenght < 10 ){
+        let randomNumber = Math.floor(Math.random() * 100);
+        array.push(randomNumber);
+    }
 
-
-    let array = math.floor(math.random() *10)
-
-    /*if(){
-
-    }*/
     console.log(array)
+    document.getElementById(`output`).innerHTML= `${array}`
+    i++
 }

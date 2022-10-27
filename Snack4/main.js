@@ -3,4 +3,4 @@ Interrompi il ciclo appena il nome è stato trovato.
 */
 
 
-const nomi = [ `gabriele`, `giacomo`, `pippo`];
+const nomiArray = [ `gabriele`, `giacomo`, `pippo`];
